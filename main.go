@@ -18,7 +18,7 @@ var (
 	y         = 0
 	height    = flag.Int("h", 100, "Assign the image's height")
 	width     = flag.Int("w", 100, "Assign the image's width")
-	colorname = flag.String("c", "Red", "Colorize the image")
+	colorname = flag.String("c", "red", "Colorize the image")
 	filename  = flag.String("n", "sampleImage.jpg", "Name the image")
 	quality   = 100
 )
